@@ -12,7 +12,6 @@
   },
   "dependencies": {
     "@vue/server-renderer": "^3.0.5",
-    "axios": "^0.21.1",
     "vue": "^3.0.5",
     "vue-meta": "^3.0.0-alpha.1",
     "vue-router": "^4.0.3"
