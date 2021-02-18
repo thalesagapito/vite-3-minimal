@@ -12,20 +12,3 @@ const defaultMetaResolver = resolveOption((prevValue, context) => {
 });
 
 export const metaManager = createMetaManager(defaultConfig, defaultMetaResolver);
-// const metaManager = createMetaManager({
-//   ...defaultConfig,
-//   esi: {
-//     group: true,
-//     namespaced: true,
-//     attributes: ['src', 'test', 'text'],
-//   },
-// }, defaultMetaResolver);
-
-// useMeta(
-//   {
-//     og: {
-//       something: 'test',
-//     },
-//   },
-//   metaManager,
-// );
